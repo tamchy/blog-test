@@ -1,0 +1,1 @@
+{"modulePrefix":"blogs","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","name":"blogs","version":"0.0.0+9d7f6739"},"exportApplicationGlobal":true}

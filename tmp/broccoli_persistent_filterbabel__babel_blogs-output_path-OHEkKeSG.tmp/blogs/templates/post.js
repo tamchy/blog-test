@@ -1,0 +1,3 @@
+define("blogs/templates/post", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "HYjNnbSY", "block": "{\"statements\":[[\"open-element\",\"h1\",[]],[\"flush-element\"],[\"text\",\"Это страница записи в блоге\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "blogs/templates/post.hbs" } });
+});

@@ -1,0 +1,3 @@
+define("blogs/templates/post/create", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "SSeyognH", "block": "{\"statements\":[[\"append\",[\"helper\",[\"post-editing\"],null,[[\"toCreate\",\"editing\"],[[\"helper\",[\"action\"],[[\"get\",[null]],\"createPost\"],null],false]]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "blogs/templates/post/create.hbs" } });
+});

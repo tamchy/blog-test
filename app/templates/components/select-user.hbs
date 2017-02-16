@@ -1,0 +1,27 @@
+<p>
+{{#radio-button
+  value="user1"
+  radioId="user1_radio"
+  groupValue=usern
+  changed=(action "userSelected")}}
+  User1
+{{/radio-button}}
+</p>
+<p>
+{{#radio-button
+ value="user2"
+ groupValue=usern
+ radioId="user2_radio"
+ changed=(action "userSelected")}}
+ User2
+{{/radio-button}}
+</p>
+<p>
+{{#radio-button
+ value="user3"
+ groupValue=usern
+ radioId="user3_radio"
+ changed=(action "userSelected")}}
+ User3
+{{/radio-button}}
+</p>

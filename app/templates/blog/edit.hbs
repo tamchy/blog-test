@@ -1,0 +1,9 @@
+{{top-menu mainPage=true }}
+<div class="container" style="margin-top:5%;">
+	{{#if userCanEdit}}
+		{{blog-editing blog=model name=model.name editing=true toEdit=(action "editBlog")}}
+		{{outlet}}
+	{{else}}
+		У вас нет прав.
+	{{/if}}
+</div>

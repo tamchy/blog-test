@@ -1,0 +1,1 @@
+/Users/nuradil/blogs/tmp/funnel-input_base_path-ttVY2DCN.tmp/lib/helpers/singularize.js

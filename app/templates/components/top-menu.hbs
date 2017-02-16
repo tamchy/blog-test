@@ -1,0 +1,23 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/blog/">Блоги</a>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+    	{{#if mainPage}}
+        <li class="nav-item active">
+          {{#link-to "blog.create" class="nav-link"}}Создать блог{{/link-to}}
+        </li>
+    	{{else}}
+    	  <li class="nav-item active">
+    	  	{{#link-to "blog" blogId class="nav-link" replace=true}}Список постов{{/link-to}}
+    	  </li>
+    	  <li class="nav-item active">
+    	  	{{#link-to "post.create" (query-params blogId=blogId) class="nav-link"}}Создать пост{{/link-to}}
+    	  </li>
+    	{{/if}}
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,1 @@
+/Users/nuradil/blogs/tmp/funnel-input_base_path-Dhr7qf3t.tmp/adapters/drf.js

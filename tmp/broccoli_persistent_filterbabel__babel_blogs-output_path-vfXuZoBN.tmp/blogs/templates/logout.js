@@ -1,0 +1,3 @@
+define("blogs/templates/logout", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "eb/pUL+I", "block": "{\"statements\":[[\"open-element\",\"h1\",[]],[\"flush-element\"],[\"text\",\"Это страница выхода из системы\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "blogs/templates/logout.hbs" } });
+});

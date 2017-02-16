@@ -1,0 +1,11 @@
+{{top-menu mainPage=true }}
+<div class="container" style="margin-top:5%;">
+	{{#if userCanEdit}}
+		<p><h3>Удалить  <b>{{model.name}}</b></h3></p>
+		<p><h5>Вы уверены?</h5></p>
+		<button class="btn btn-danger" onclick={{action "delete"}}>Удалить блог</button>
+	{{else}}
+		У вас нет прав.
+	{{/if}}
+	{{outlet}}
+</div>

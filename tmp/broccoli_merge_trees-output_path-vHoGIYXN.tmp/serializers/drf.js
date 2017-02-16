@@ -1,0 +1,1 @@
+/Users/nuradil/blogs/tmp/broccoli_merge_trees-input_base_path-ThkLr8hV.tmp/3/serializers/drf.js

@@ -1,0 +1,1 @@
+/Users/nuradil/blogs/tmp/broccoli_merge_trees-input_base_path-p5oeiyOf.tmp/2/blogs/tests/integration/components/blog-object-test.jshint.lint-test.js

@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">{{blog.name}}</h4>
+    <p class="card-text">Создано пользователем:{{blog.createdBy}} {{blog.dateCreated}}.</p>
+    {{#link-to "blog" blog (query-params blogId=blog.id) class="btn btn-primary"}}Перейти в блог{{/link-to}}
+    {{#if userCanEdit}}
+    	{{#link-to "blog.edit" blog class="btn btn-success"}}Редактировать блог{{/link-to}}
+    	{{#link-to "blog.delete" blog class="btn btn-danger"}}Удалить блог{{/link-to}}
+    {{/if}}
+  </div>
+</div>

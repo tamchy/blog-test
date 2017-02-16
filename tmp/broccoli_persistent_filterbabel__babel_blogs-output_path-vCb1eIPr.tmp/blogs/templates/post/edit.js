@@ -1,0 +1,3 @@
+define("blogs/templates/post/edit", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "HnMcuz8/", "block": "{\"statements\":[[\"append\",[\"helper\",[\"post-editing\"],null,[[\"toEdit\",\"editing\",\"post\",\"published\",\"title\",\"text\",\"isPublished\"],[[\"helper\",[\"action\"],[[\"get\",[null]],\"editPost\"],null],true,[\"get\",[\"model\"]],[\"get\",[\"model\",\"published\"]],[\"get\",[\"model\",\"title\"]],[\"get\",[\"model\",\"text\"]],[\"get\",[\"model\",\"isPublished\"]]]]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "blogs/templates/post/edit.hbs" } });
+});

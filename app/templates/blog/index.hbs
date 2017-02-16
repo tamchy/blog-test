@@ -1,0 +1,19 @@
+{{top-menu mainPage=false blogId=blogId}}
+<div class="container" style="margin-top:5%;">
+	<div class="row justify-content-md-center">
+		<div class="col-12 col-md-auto">
+			<h3>Список постов</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			{{#if userCanEdit}}
+				<p>{{#link-to "post.create" (query-params blogId=model.id) class="btn btn-danger"}}Создать пост{{/link-to}}</p>
+			{{/if}}
+			{{#each model.postSet as |post|}}
+				<p>{{post-object post=post userCanEdit=userCanEdit}}</p>
+			{{/each}}
+		</div>
+	</div>
+	{{outlet}}
+</div>

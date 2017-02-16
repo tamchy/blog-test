@@ -1,0 +1,11 @@
+<div class="row">
+	<div class="col-12">
+		<form>
+		  <div class="form-group">
+		    <label for="nameInput">Название блога</label>
+		    {{input value=name id="nameInput"}}
+		  </div>
+		  <button type="submit" class="btn btn-primary" {{action 'createBlog' on=submit}}>Отправить</button>
+		</form>
+	</div>
+</div>

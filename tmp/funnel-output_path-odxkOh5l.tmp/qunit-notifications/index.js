@@ -1,0 +1,1 @@
+/Users/nuradil/blogs/tmp/funnel-input_base_path-ctG8Nh4S.tmp/index.js

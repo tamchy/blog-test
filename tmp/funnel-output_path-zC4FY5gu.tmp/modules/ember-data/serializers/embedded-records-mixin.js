@@ -1,0 +1,1 @@
+/Users/nuradil/blogs/tmp/funnel-input_base_path-r9XEYZ9V.tmp/serializers/embedded-records-mixin.js

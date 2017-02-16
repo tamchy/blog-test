@@ -1,0 +1,9 @@
+{{top-menu mainPage=false blogId=blogId}}
+<div class="container" style="margin-top:5%;">
+	{{#if userCanEdit}}
+		{{post-editing toCreate=(action "createPost") editing=false}}
+	{{else}}
+		У вас нет прав.
+	{{/if}}
+	{{outlet}}
+</div>
